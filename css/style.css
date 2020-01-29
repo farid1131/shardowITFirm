@@ -1,0 +1,241 @@
+/* general */
+
+body {
+  font: 20px/ 2 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: lightskyblue;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 36px;
+  background: blue;
+  border: 0;
+  padding: 0 20px;
+  color: #ffffff;
+  font-size: 18px;
+}
+.button_1:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+/* header */
+header {
+  background-color: gold;
+  color: blue;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #ffffff 10px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+header li {
+  display: inline;
+  padding: 0 30px;
+}
+
+header #brand {
+  float: left;
+}
+
+header #brand h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 25px;
+}
+
+header .highlight,
+header .current a {
+  color: red;
+  font-weight: bolder;
+}
+
+header a:hover {
+  color: aqua;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+/* showcase */
+#showcase {
+  min-height: 400px;
+  background: url("../pic/computer-monitor-on-table-204611.jpg") repeat 0;
+  background-attachment: fixed;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+
+#showcase h1 {
+  padding-top: 60px;
+  font-family: 50px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 3;
+  text-transform: capitalize;
+}
+
+#showcase p {
+  font-size: 25px;
+  position: relative;
+  z-index: 3;
+}
+
+#showcase .container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* email */
+#email h1 {
+  padding: 15px;
+  color: #ffffff;
+  background: lightskyblue;
+}
+
+#email h1 {
+  float: left;
+}
+
+#email form {
+  float: right;
+  margin-top: 45px;
+}
+
+#email input[type="email"] {
+  padding: 1px;
+  height: 25px;
+  width: 250px;
+}
+
+/* boxes */
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 5px;
+  background-color: lightskyblue;
+}
+
+#boxes .box img {
+  width: 200px;
+}
+
+/* clients */
+#clients {
+  background-color: #dc8e08fe;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#clients .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#clients .client {
+  width: 25%;
+  text-align: center;
+  color: #f4f4f4;
+  border: 4px solid blue;
+  border-radius: 10px;
+}
+
+#clients img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+#clients h3,
+#customers img {
+  margin: 0;
+}
+#clients .title {
+  text-align: center;
+  font-size: 30px;
+  color: #35424a;
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
+  text-transform: capitalize;
+}
+
+/* button_2 */
+.button_2 {
+  height: 35px;
+  background: blue;
+  border: 0;
+  padding: 10px 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.button_2:hover {
+  background-color: #35424a;
+  text-decoration: none;
+  cursor: pointer;
+  color: aqua;
+}
+
+footer {
+  background-color: gold;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+
+/* about page */
+.dark {
+  padding: 15px;
+  background-color: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+article#main-col {
+  float: left;
+  width: 65%;
+}
+section#chat {
+  margin-top: 0;
+}
